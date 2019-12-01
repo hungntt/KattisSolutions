@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/CS/Kattis/C++/knightfens.cpp" "D:/CS/Kattis/C++/cmake-build-debug/CMakeFiles/knightfens.dir/knightfens.cpp.obj"
+  "D:/CS/Kattis/KattisSoluions/C++/knightfens.cpp" "D:/CS/Kattis/KattisSoluions/C++/cmake-build-debug/CMakeFiles/knightfens.dir/knightfens.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -43,21 +43,23 @@ RM = "C:\Program Files\JetBrains\CLion 2019.3\bin\cmake\win\bin\cmake.exe" -E re
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\CS\Kattis\C++
+CMAKE_SOURCE_DIR = D:\CS\Kattis\KattisSoluions\C++
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\CS\Kattis\C++\cmake-build-debug
+CMAKE_BINARY_DIR = D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
 all: CMakeFiles/knightfens.dir/all
+all: CMakeFiles/Autori.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
 clean: CMakeFiles/knightfens.dir/clean
+clean: CMakeFiles/Autori.dir/clean
 
 .PHONY : clean
 
@@ -73,14 +75,14 @@ preinstall:
 CMakeFiles/knightfens.dir/all:
 	$(MAKE) -f CMakeFiles\knightfens.dir\build.make CMakeFiles/knightfens.dir/depend
 	$(MAKE) -f CMakeFiles\knightfens.dir\build.make CMakeFiles/knightfens.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CS\Kattis\C++\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target knightfens"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target knightfens"
 .PHONY : CMakeFiles/knightfens.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/knightfens.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\C++\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/knightfens.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\C++\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/knightfens.dir/rule
 
 # Convenience name for target.
@@ -92,6 +94,33 @@ knightfens: CMakeFiles/knightfens.dir/rule
 CMakeFiles/knightfens.dir/clean:
 	$(MAKE) -f CMakeFiles\knightfens.dir\build.make CMakeFiles/knightfens.dir/clean
 .PHONY : CMakeFiles/knightfens.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Autori.dir
+
+# All Build rule for target.
+CMakeFiles/Autori.dir/all:
+	$(MAKE) -f CMakeFiles\Autori.dir\build.make CMakeFiles/Autori.dir/depend
+	$(MAKE) -f CMakeFiles\Autori.dir\build.make CMakeFiles/Autori.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Autori"
+.PHONY : CMakeFiles/Autori.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Autori.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Autori.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Autori.dir/rule
+
+# Convenience name for target.
+Autori: CMakeFiles/Autori.dir/rule
+
+.PHONY : Autori
+
+# clean rule for target.
+CMakeFiles/Autori.dir/clean:
+	$(MAKE) -f CMakeFiles\Autori.dir\build.make CMakeFiles/Autori.dir/clean
+.PHONY : CMakeFiles/Autori.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

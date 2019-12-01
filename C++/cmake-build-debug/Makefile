@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.3\bin\cmake\win\bin\cmake.exe" -E re
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\CS\Kattis\C++
+CMAKE_SOURCE_DIR = D:\CS\Kattis\KattisSoluions\C++
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\CS\Kattis\C++\cmake-build-debug
+CMAKE_BINARY_DIR = D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\C++\cmake-build-debug\CMakeFiles D:\CS\Kattis\C++\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\C++\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,6 +122,46 @@ knightfens/fast:
 	$(MAKE) -f CMakeFiles\knightfens.dir\build.make CMakeFiles/knightfens.dir/build
 .PHONY : knightfens/fast
 
+#=============================================================================
+# Target rules for targets named Autori
+
+# Build rule for target.
+Autori: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Autori
+.PHONY : Autori
+
+# fast build rule for target.
+Autori/fast:
+	$(MAKE) -f CMakeFiles\Autori.dir\build.make CMakeFiles/Autori.dir/build
+.PHONY : Autori/fast
+
+Autori.obj: Autori.cpp.obj
+
+.PHONY : Autori.obj
+
+# target to build an object file
+Autori.cpp.obj:
+	$(MAKE) -f CMakeFiles\Autori.dir\build.make CMakeFiles/Autori.dir/Autori.cpp.obj
+.PHONY : Autori.cpp.obj
+
+Autori.i: Autori.cpp.i
+
+.PHONY : Autori.i
+
+# target to preprocess a source file
+Autori.cpp.i:
+	$(MAKE) -f CMakeFiles\Autori.dir\build.make CMakeFiles/Autori.dir/Autori.cpp.i
+.PHONY : Autori.cpp.i
+
+Autori.s: Autori.cpp.s
+
+.PHONY : Autori.s
+
+# target to generate assembly for a file
+Autori.cpp.s:
+	$(MAKE) -f CMakeFiles\Autori.dir\build.make CMakeFiles/Autori.dir/Autori.cpp.s
+.PHONY : Autori.cpp.s
+
 knightfens.obj: knightfens.cpp.obj
 
 .PHONY : knightfens.obj
@@ -156,8 +196,12 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... knightfens
+	@echo ... Autori
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Autori.obj
+	@echo ... Autori.i
+	@echo ... Autori.s
 	@echo ... knightfens.obj
 	@echo ... knightfens.i
 	@echo ... knightfens.s
