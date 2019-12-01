@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/CS/Kattis/C++/knightfens.cpp
+iostream
+-
+algorithm
+-
+
+D:/CS/Kattis/C++/main.cpp
+iostream
+-
+

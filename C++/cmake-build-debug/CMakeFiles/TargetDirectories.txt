@@ -1,0 +1,3 @@
+D:/CS/Kattis/C++/cmake-build-debug/CMakeFiles/knightfens.dir
+D:/CS/Kattis/C++/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/CS/Kattis/C++/cmake-build-debug/CMakeFiles/rebuild_cache.dir
