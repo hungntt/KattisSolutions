@@ -32,15 +32,15 @@ board b;
 const board g = {
         {2, 2},
         {
-         {'b', 'b', 'b', 'b', 'b'},
+            {'b', 'b', 'b', 'b', 'b'},
             {'w', 'b', 'b', 'b', 'b'},
-                {'w', 'w', ' ', 'b', 'b'},
-                {'w', 'w', 'w', 'w', 'b'},
-                {'w', 'w', 'w', 'w', 'w'}
+            {'w', 'w', ' ', 'b', 'b'},
+            {'w', 'w', 'w', 'w', 'b'},
+            {'w', 'w', 'w', 'w', 'w'}
         }
 };
 
-int compare(const board &b1, const board &b2) {
+int compare(const board &b1, const board &b2) { // Show the difference between our board with the final board
     int d = 0;
 
     for (int i = 0; i < HEIGHT; ++i)
@@ -53,7 +53,8 @@ int compare(const board &b1, const board &b2) {
 
 bool search(int max_difference, int difference = 0) {
     int d = compare(g, b);
-    if (d == 0) return true;
+
+    if (d == 0) return true; // End search if there is no diff between two boards
     if (d + difference > max_difference) return false;
 
     for (auto move : moves) {

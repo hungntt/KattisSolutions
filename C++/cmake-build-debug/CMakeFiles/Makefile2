@@ -54,12 +54,16 @@ CMAKE_BINARY_DIR = D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug
 # The main recursive "all" target.
 all: CMakeFiles/knightfens.dir/all
 all: CMakeFiles/Autori.dir/all
+all: CMakeFiles/geppetto.dir/all
+all: CMakeFiles/font.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
 clean: CMakeFiles/knightfens.dir/clean
 clean: CMakeFiles/Autori.dir/clean
+clean: CMakeFiles/geppetto.dir/clean
+clean: CMakeFiles/font.dir/clean
 
 .PHONY : clean
 
@@ -75,7 +79,7 @@ preinstall:
 CMakeFiles/knightfens.dir/all:
 	$(MAKE) -f CMakeFiles\knightfens.dir\build.make CMakeFiles/knightfens.dir/depend
 	$(MAKE) -f CMakeFiles\knightfens.dir\build.make CMakeFiles/knightfens.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target knightfens"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target knightfens"
 .PHONY : CMakeFiles/knightfens.dir/all
 
 # Build rule for subdir invocation for target.
@@ -121,6 +125,60 @@ Autori: CMakeFiles/Autori.dir/rule
 CMakeFiles/Autori.dir/clean:
 	$(MAKE) -f CMakeFiles\Autori.dir\build.make CMakeFiles/Autori.dir/clean
 .PHONY : CMakeFiles/Autori.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/geppetto.dir
+
+# All Build rule for target.
+CMakeFiles/geppetto.dir/all:
+	$(MAKE) -f CMakeFiles\geppetto.dir\build.make CMakeFiles/geppetto.dir/depend
+	$(MAKE) -f CMakeFiles\geppetto.dir\build.make CMakeFiles/geppetto.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target geppetto"
+.PHONY : CMakeFiles/geppetto.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/geppetto.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/geppetto.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/geppetto.dir/rule
+
+# Convenience name for target.
+geppetto: CMakeFiles/geppetto.dir/rule
+
+.PHONY : geppetto
+
+# clean rule for target.
+CMakeFiles/geppetto.dir/clean:
+	$(MAKE) -f CMakeFiles\geppetto.dir\build.make CMakeFiles/geppetto.dir/clean
+.PHONY : CMakeFiles/geppetto.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/font.dir
+
+# All Build rule for target.
+CMakeFiles/font.dir/all:
+	$(MAKE) -f CMakeFiles\font.dir\build.make CMakeFiles/font.dir/depend
+	$(MAKE) -f CMakeFiles\font.dir\build.make CMakeFiles/font.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target font"
+.PHONY : CMakeFiles/font.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/font.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/font.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/font.dir/rule
+
+# Convenience name for target.
+font: CMakeFiles/font.dir/rule
+
+.PHONY : font
+
+# clean rule for target.
+CMakeFiles/font.dir/clean:
+	$(MAKE) -f CMakeFiles\font.dir\build.make CMakeFiles/font.dir/clean
+.PHONY : CMakeFiles/font.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

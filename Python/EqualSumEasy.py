@@ -21,9 +21,25 @@ def subset_as_list(lis, x):
 
 
 def test_case(tc):
-    print(f"Case {tc}:")
+    print("Case #{0}:".format(tc))
     lis = list(map(int, input().split()))[1:]
     single = {a: b for b, a in enumerate(lis)}
     ss_map = {}
+    for i in range(3, (1 << 20) - 1):
+        if i & (i - 1) != 0:
+            sss = subset_sum(lis, i)
+            if sss in single:
+                print(" ".join(map(str, subset_as_list(lis, i))))
+                print(" ".join(map(str, subset_as_list(lis, 1 << single[sss]))))
+                return
+            elif sss in ss_map:
+                print(" ".join(map(str, subset_as_list(lis, ss_map[sss]))))
+                print(" ".join(map(str, subset_as_list(lis, i))))
+                return
+            else:
+                ss_map[sss] = i
+    print("Impossible")
 
-    for i in range(3, )
+
+for t in range(int(input())):
+    test_case(t + 1)

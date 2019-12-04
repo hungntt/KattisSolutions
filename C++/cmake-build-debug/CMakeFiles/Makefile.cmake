@@ -55,4 +55,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/knightfens.dir/DependInfo.cmake"
   "CMakeFiles/Autori.dir/DependInfo.cmake"
+  "CMakeFiles/geppetto.dir/DependInfo.cmake"
+  "CMakeFiles/font.dir/DependInfo.cmake"
   )

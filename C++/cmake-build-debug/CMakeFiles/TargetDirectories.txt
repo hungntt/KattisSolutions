@@ -1,4 +1,6 @@
 D:/CS/Kattis/KattisSoluions/C++/cmake-build-debug/CMakeFiles/knightfens.dir
 D:/CS/Kattis/KattisSoluions/C++/cmake-build-debug/CMakeFiles/Autori.dir
+D:/CS/Kattis/KattisSoluions/C++/cmake-build-debug/CMakeFiles/geppetto.dir
 D:/CS/Kattis/KattisSoluions/C++/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/CS/Kattis/KattisSoluions/C++/cmake-build-debug/CMakeFiles/font.dir
 D:/CS/Kattis/KattisSoluions/C++/cmake-build-debug/CMakeFiles/rebuild_cache.dir

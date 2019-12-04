@@ -135,6 +135,32 @@ Autori/fast:
 	$(MAKE) -f CMakeFiles\Autori.dir\build.make CMakeFiles/Autori.dir/build
 .PHONY : Autori/fast
 
+#=============================================================================
+# Target rules for targets named geppetto
+
+# Build rule for target.
+geppetto: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 geppetto
+.PHONY : geppetto
+
+# fast build rule for target.
+geppetto/fast:
+	$(MAKE) -f CMakeFiles\geppetto.dir\build.make CMakeFiles/geppetto.dir/build
+.PHONY : geppetto/fast
+
+#=============================================================================
+# Target rules for targets named font
+
+# Build rule for target.
+font: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 font
+.PHONY : font
+
+# fast build rule for target.
+font/fast:
+	$(MAKE) -f CMakeFiles\font.dir\build.make CMakeFiles/font.dir/build
+.PHONY : font/fast
+
 Autori.obj: Autori.cpp.obj
 
 .PHONY : Autori.obj
@@ -161,6 +187,60 @@ Autori.s: Autori.cpp.s
 Autori.cpp.s:
 	$(MAKE) -f CMakeFiles\Autori.dir\build.make CMakeFiles/Autori.dir/Autori.cpp.s
 .PHONY : Autori.cpp.s
+
+font.obj: font.cpp.obj
+
+.PHONY : font.obj
+
+# target to build an object file
+font.cpp.obj:
+	$(MAKE) -f CMakeFiles\font.dir\build.make CMakeFiles/font.dir/font.cpp.obj
+.PHONY : font.cpp.obj
+
+font.i: font.cpp.i
+
+.PHONY : font.i
+
+# target to preprocess a source file
+font.cpp.i:
+	$(MAKE) -f CMakeFiles\font.dir\build.make CMakeFiles/font.dir/font.cpp.i
+.PHONY : font.cpp.i
+
+font.s: font.cpp.s
+
+.PHONY : font.s
+
+# target to generate assembly for a file
+font.cpp.s:
+	$(MAKE) -f CMakeFiles\font.dir\build.make CMakeFiles/font.dir/font.cpp.s
+.PHONY : font.cpp.s
+
+geppetto.obj: geppetto.cpp.obj
+
+.PHONY : geppetto.obj
+
+# target to build an object file
+geppetto.cpp.obj:
+	$(MAKE) -f CMakeFiles\geppetto.dir\build.make CMakeFiles/geppetto.dir/geppetto.cpp.obj
+.PHONY : geppetto.cpp.obj
+
+geppetto.i: geppetto.cpp.i
+
+.PHONY : geppetto.i
+
+# target to preprocess a source file
+geppetto.cpp.i:
+	$(MAKE) -f CMakeFiles\geppetto.dir\build.make CMakeFiles/geppetto.dir/geppetto.cpp.i
+.PHONY : geppetto.cpp.i
+
+geppetto.s: geppetto.cpp.s
+
+.PHONY : geppetto.s
+
+# target to generate assembly for a file
+geppetto.cpp.s:
+	$(MAKE) -f CMakeFiles\geppetto.dir\build.make CMakeFiles/geppetto.dir/geppetto.cpp.s
+.PHONY : geppetto.cpp.s
 
 knightfens.obj: knightfens.cpp.obj
 
@@ -197,11 +277,19 @@ help:
 	@echo ... depend
 	@echo ... knightfens
 	@echo ... Autori
+	@echo ... geppetto
 	@echo ... edit_cache
+	@echo ... font
 	@echo ... rebuild_cache
 	@echo ... Autori.obj
 	@echo ... Autori.i
 	@echo ... Autori.s
+	@echo ... font.obj
+	@echo ... font.i
+	@echo ... font.s
+	@echo ... geppetto.obj
+	@echo ... geppetto.i
+	@echo ... geppetto.s
 	@echo ... knightfens.obj
 	@echo ... knightfens.i
 	@echo ... knightfens.s
