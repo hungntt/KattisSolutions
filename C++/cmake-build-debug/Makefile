@@ -123,6 +123,32 @@ knightfens/fast:
 .PHONY : knightfens/fast
 
 #=============================================================================
+# Target rules for targets named beanbag
+
+# Build rule for target.
+beanbag: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 beanbag
+.PHONY : beanbag
+
+# fast build rule for target.
+beanbag/fast:
+	$(MAKE) -f CMakeFiles\beanbag.dir\build.make CMakeFiles/beanbag.dir/build
+.PHONY : beanbag/fast
+
+#=============================================================================
+# Target rules for targets named knapsack
+
+# Build rule for target.
+knapsack: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 knapsack
+.PHONY : knapsack
+
+# fast build rule for target.
+knapsack/fast:
+	$(MAKE) -f CMakeFiles\knapsack.dir\build.make CMakeFiles/knapsack.dir/build
+.PHONY : knapsack/fast
+
+#=============================================================================
 # Target rules for targets named Autori
 
 # Build rule for target.
@@ -134,6 +160,19 @@ Autori: cmake_check_build_system
 Autori/fast:
 	$(MAKE) -f CMakeFiles\Autori.dir\build.make CMakeFiles/Autori.dir/build
 .PHONY : Autori/fast
+
+#=============================================================================
+# Target rules for targets named HeartRate
+
+# Build rule for target.
+HeartRate: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 HeartRate
+.PHONY : HeartRate
+
+# fast build rule for target.
+HeartRate/fast:
+	$(MAKE) -f CMakeFiles\HeartRate.dir\build.make CMakeFiles/HeartRate.dir/build
+.PHONY : HeartRate/fast
 
 #=============================================================================
 # Target rules for targets named geppetto
@@ -149,6 +188,45 @@ geppetto/fast:
 .PHONY : geppetto/fast
 
 #=============================================================================
+# Target rules for targets named longincsubseqplus
+
+# Build rule for target.
+longincsubseqplus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 longincsubseqplus
+.PHONY : longincsubseqplus
+
+# fast build rule for target.
+longincsubseqplus/fast:
+	$(MAKE) -f CMakeFiles\longincsubseqplus.dir\build.make CMakeFiles/longincsubseqplus.dir/build
+.PHONY : longincsubseqplus/fast
+
+#=============================================================================
+# Target rules for targets named longincsubseq
+
+# Build rule for target.
+longincsubseq: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 longincsubseq
+.PHONY : longincsubseq
+
+# fast build rule for target.
+longincsubseq/fast:
+	$(MAKE) -f CMakeFiles\longincsubseq.dir\build.make CMakeFiles/longincsubseq.dir/build
+.PHONY : longincsubseq/fast
+
+#=============================================================================
+# Target rules for targets named qaly
+
+# Build rule for target.
+qaly: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 qaly
+.PHONY : qaly
+
+# fast build rule for target.
+qaly/fast:
+	$(MAKE) -f CMakeFiles\qaly.dir\build.make CMakeFiles/qaly.dir/build
+.PHONY : qaly/fast
+
+#=============================================================================
 # Target rules for targets named font
 
 # Build rule for target.
@@ -160,6 +238,136 @@ font: cmake_check_build_system
 font/fast:
 	$(MAKE) -f CMakeFiles\font.dir\build.make CMakeFiles/font.dir/build
 .PHONY : font/fast
+
+#=============================================================================
+# Target rules for targets named orders
+
+# Build rule for target.
+orders: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 orders
+.PHONY : orders
+
+# fast build rule for target.
+orders/fast:
+	$(MAKE) -f CMakeFiles\orders.dir\build.make CMakeFiles/orders.dir/build
+.PHONY : orders/fast
+
+#=============================================================================
+# Target rules for targets named main
+
+# Build rule for target.
+main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 main
+.PHONY : main
+
+# fast build rule for target.
+main/fast:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
+
+#=============================================================================
+# Target rules for targets named tarifa
+
+# Build rule for target.
+tarifa: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 tarifa
+.PHONY : tarifa
+
+# fast build rule for target.
+tarifa/fast:
+	$(MAKE) -f CMakeFiles\tarifa.dir\build.make CMakeFiles/tarifa.dir/build
+.PHONY : tarifa/fast
+
+#=============================================================================
+# Target rules for targets named convexhullOpower2
+
+# Build rule for target.
+convexhullOpower2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 convexhullOpower2
+.PHONY : convexhullOpower2
+
+# fast build rule for target.
+convexhullOpower2/fast:
+	$(MAKE) -f CMakeFiles\convexhullOpower2.dir\build.make CMakeFiles/convexhullOpower2.dir/build
+.PHONY : convexhullOpower2/fast
+
+#=============================================================================
+# Target rules for targets named carrots
+
+# Build rule for target.
+carrots: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 carrots
+.PHONY : carrots
+
+# fast build rule for target.
+carrots/fast:
+	$(MAKE) -f CMakeFiles\carrots.dir\build.make CMakeFiles/carrots.dir/build
+.PHONY : carrots/fast
+
+#=============================================================================
+# Target rules for targets named r2
+
+# Build rule for target.
+r2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 r2
+.PHONY : r2
+
+# fast build rule for target.
+r2/fast:
+	$(MAKE) -f CMakeFiles\r2.dir\build.make CMakeFiles/r2.dir/build
+.PHONY : r2/fast
+
+#=============================================================================
+# Target rules for targets named oddities
+
+# Build rule for target.
+oddities: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 oddities
+.PHONY : oddities
+
+# fast build rule for target.
+oddities/fast:
+	$(MAKE) -f CMakeFiles\oddities.dir\build.make CMakeFiles/oddities.dir/build
+.PHONY : oddities/fast
+
+#=============================================================================
+# Target rules for targets named convexhullGraham
+
+# Build rule for target.
+convexhullGraham: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 convexhullGraham
+.PHONY : convexhullGraham
+
+# fast build rule for target.
+convexhullGraham/fast:
+	$(MAKE) -f CMakeFiles\convexhullGraham.dir\build.make CMakeFiles/convexhullGraham.dir/build
+.PHONY : convexhullGraham/fast
+
+#=============================================================================
+# Target rules for targets named exactchange2
+
+# Build rule for target.
+exactchange2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 exactchange2
+.PHONY : exactchange2
+
+# fast build rule for target.
+exactchange2/fast:
+	$(MAKE) -f CMakeFiles\exactchange2.dir\build.make CMakeFiles/exactchange2.dir/build
+.PHONY : exactchange2/fast
+
+#=============================================================================
+# Target rules for targets named batterup
+
+# Build rule for target.
+batterup: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 batterup
+.PHONY : batterup
+
+# fast build rule for target.
+batterup/fast:
+	$(MAKE) -f CMakeFiles\batterup.dir\build.make CMakeFiles/batterup.dir/build
+.PHONY : batterup/fast
 
 Autori.obj: Autori.cpp.obj
 
@@ -187,6 +395,195 @@ Autori.s: Autori.cpp.s
 Autori.cpp.s:
 	$(MAKE) -f CMakeFiles\Autori.dir\build.make CMakeFiles/Autori.dir/Autori.cpp.s
 .PHONY : Autori.cpp.s
+
+HeartRate.obj: HeartRate.cpp.obj
+
+.PHONY : HeartRate.obj
+
+# target to build an object file
+HeartRate.cpp.obj:
+	$(MAKE) -f CMakeFiles\HeartRate.dir\build.make CMakeFiles/HeartRate.dir/HeartRate.cpp.obj
+.PHONY : HeartRate.cpp.obj
+
+HeartRate.i: HeartRate.cpp.i
+
+.PHONY : HeartRate.i
+
+# target to preprocess a source file
+HeartRate.cpp.i:
+	$(MAKE) -f CMakeFiles\HeartRate.dir\build.make CMakeFiles/HeartRate.dir/HeartRate.cpp.i
+.PHONY : HeartRate.cpp.i
+
+HeartRate.s: HeartRate.cpp.s
+
+.PHONY : HeartRate.s
+
+# target to generate assembly for a file
+HeartRate.cpp.s:
+	$(MAKE) -f CMakeFiles\HeartRate.dir\build.make CMakeFiles/HeartRate.dir/HeartRate.cpp.s
+.PHONY : HeartRate.cpp.s
+
+batterup.obj: batterup.cpp.obj
+
+.PHONY : batterup.obj
+
+# target to build an object file
+batterup.cpp.obj:
+	$(MAKE) -f CMakeFiles\batterup.dir\build.make CMakeFiles/batterup.dir/batterup.cpp.obj
+.PHONY : batterup.cpp.obj
+
+batterup.i: batterup.cpp.i
+
+.PHONY : batterup.i
+
+# target to preprocess a source file
+batterup.cpp.i:
+	$(MAKE) -f CMakeFiles\batterup.dir\build.make CMakeFiles/batterup.dir/batterup.cpp.i
+.PHONY : batterup.cpp.i
+
+batterup.s: batterup.cpp.s
+
+.PHONY : batterup.s
+
+# target to generate assembly for a file
+batterup.cpp.s:
+	$(MAKE) -f CMakeFiles\batterup.dir\build.make CMakeFiles/batterup.dir/batterup.cpp.s
+.PHONY : batterup.cpp.s
+
+beanbag.obj: beanbag.cpp.obj
+
+.PHONY : beanbag.obj
+
+# target to build an object file
+beanbag.cpp.obj:
+	$(MAKE) -f CMakeFiles\beanbag.dir\build.make CMakeFiles/beanbag.dir/beanbag.cpp.obj
+.PHONY : beanbag.cpp.obj
+
+beanbag.i: beanbag.cpp.i
+
+.PHONY : beanbag.i
+
+# target to preprocess a source file
+beanbag.cpp.i:
+	$(MAKE) -f CMakeFiles\beanbag.dir\build.make CMakeFiles/beanbag.dir/beanbag.cpp.i
+.PHONY : beanbag.cpp.i
+
+beanbag.s: beanbag.cpp.s
+
+.PHONY : beanbag.s
+
+# target to generate assembly for a file
+beanbag.cpp.s:
+	$(MAKE) -f CMakeFiles\beanbag.dir\build.make CMakeFiles/beanbag.dir/beanbag.cpp.s
+.PHONY : beanbag.cpp.s
+
+carrots.obj: carrots.cpp.obj
+
+.PHONY : carrots.obj
+
+# target to build an object file
+carrots.cpp.obj:
+	$(MAKE) -f CMakeFiles\carrots.dir\build.make CMakeFiles/carrots.dir/carrots.cpp.obj
+.PHONY : carrots.cpp.obj
+
+carrots.i: carrots.cpp.i
+
+.PHONY : carrots.i
+
+# target to preprocess a source file
+carrots.cpp.i:
+	$(MAKE) -f CMakeFiles\carrots.dir\build.make CMakeFiles/carrots.dir/carrots.cpp.i
+.PHONY : carrots.cpp.i
+
+carrots.s: carrots.cpp.s
+
+.PHONY : carrots.s
+
+# target to generate assembly for a file
+carrots.cpp.s:
+	$(MAKE) -f CMakeFiles\carrots.dir\build.make CMakeFiles/carrots.dir/carrots.cpp.s
+.PHONY : carrots.cpp.s
+
+convexhullGraham.obj: convexhullGraham.cpp.obj
+
+.PHONY : convexhullGraham.obj
+
+# target to build an object file
+convexhullGraham.cpp.obj:
+	$(MAKE) -f CMakeFiles\convexhullGraham.dir\build.make CMakeFiles/convexhullGraham.dir/convexhullGraham.cpp.obj
+.PHONY : convexhullGraham.cpp.obj
+
+convexhullGraham.i: convexhullGraham.cpp.i
+
+.PHONY : convexhullGraham.i
+
+# target to preprocess a source file
+convexhullGraham.cpp.i:
+	$(MAKE) -f CMakeFiles\convexhullGraham.dir\build.make CMakeFiles/convexhullGraham.dir/convexhullGraham.cpp.i
+.PHONY : convexhullGraham.cpp.i
+
+convexhullGraham.s: convexhullGraham.cpp.s
+
+.PHONY : convexhullGraham.s
+
+# target to generate assembly for a file
+convexhullGraham.cpp.s:
+	$(MAKE) -f CMakeFiles\convexhullGraham.dir\build.make CMakeFiles/convexhullGraham.dir/convexhullGraham.cpp.s
+.PHONY : convexhullGraham.cpp.s
+
+convexhullOpower2.obj: convexhullOpower2.cpp.obj
+
+.PHONY : convexhullOpower2.obj
+
+# target to build an object file
+convexhullOpower2.cpp.obj:
+	$(MAKE) -f CMakeFiles\convexhullOpower2.dir\build.make CMakeFiles/convexhullOpower2.dir/convexhullOpower2.cpp.obj
+.PHONY : convexhullOpower2.cpp.obj
+
+convexhullOpower2.i: convexhullOpower2.cpp.i
+
+.PHONY : convexhullOpower2.i
+
+# target to preprocess a source file
+convexhullOpower2.cpp.i:
+	$(MAKE) -f CMakeFiles\convexhullOpower2.dir\build.make CMakeFiles/convexhullOpower2.dir/convexhullOpower2.cpp.i
+.PHONY : convexhullOpower2.cpp.i
+
+convexhullOpower2.s: convexhullOpower2.cpp.s
+
+.PHONY : convexhullOpower2.s
+
+# target to generate assembly for a file
+convexhullOpower2.cpp.s:
+	$(MAKE) -f CMakeFiles\convexhullOpower2.dir\build.make CMakeFiles/convexhullOpower2.dir/convexhullOpower2.cpp.s
+.PHONY : convexhullOpower2.cpp.s
+
+exactchange2.obj: exactchange2.cpp.obj
+
+.PHONY : exactchange2.obj
+
+# target to build an object file
+exactchange2.cpp.obj:
+	$(MAKE) -f CMakeFiles\exactchange2.dir\build.make CMakeFiles/exactchange2.dir/exactchange2.cpp.obj
+.PHONY : exactchange2.cpp.obj
+
+exactchange2.i: exactchange2.cpp.i
+
+.PHONY : exactchange2.i
+
+# target to preprocess a source file
+exactchange2.cpp.i:
+	$(MAKE) -f CMakeFiles\exactchange2.dir\build.make CMakeFiles/exactchange2.dir/exactchange2.cpp.i
+.PHONY : exactchange2.cpp.i
+
+exactchange2.s: exactchange2.cpp.s
+
+.PHONY : exactchange2.s
+
+# target to generate assembly for a file
+exactchange2.cpp.s:
+	$(MAKE) -f CMakeFiles\exactchange2.dir\build.make CMakeFiles/exactchange2.dir/exactchange2.cpp.s
+.PHONY : exactchange2.cpp.s
 
 font.obj: font.cpp.obj
 
@@ -242,6 +639,33 @@ geppetto.cpp.s:
 	$(MAKE) -f CMakeFiles\geppetto.dir\build.make CMakeFiles/geppetto.dir/geppetto.cpp.s
 .PHONY : geppetto.cpp.s
 
+knapsack.obj: knapsack.cpp.obj
+
+.PHONY : knapsack.obj
+
+# target to build an object file
+knapsack.cpp.obj:
+	$(MAKE) -f CMakeFiles\knapsack.dir\build.make CMakeFiles/knapsack.dir/knapsack.cpp.obj
+.PHONY : knapsack.cpp.obj
+
+knapsack.i: knapsack.cpp.i
+
+.PHONY : knapsack.i
+
+# target to preprocess a source file
+knapsack.cpp.i:
+	$(MAKE) -f CMakeFiles\knapsack.dir\build.make CMakeFiles/knapsack.dir/knapsack.cpp.i
+.PHONY : knapsack.cpp.i
+
+knapsack.s: knapsack.cpp.s
+
+.PHONY : knapsack.s
+
+# target to generate assembly for a file
+knapsack.cpp.s:
+	$(MAKE) -f CMakeFiles\knapsack.dir\build.make CMakeFiles/knapsack.dir/knapsack.cpp.s
+.PHONY : knapsack.cpp.s
+
 knightfens.obj: knightfens.cpp.obj
 
 .PHONY : knightfens.obj
@@ -269,6 +693,222 @@ knightfens.cpp.s:
 	$(MAKE) -f CMakeFiles\knightfens.dir\build.make CMakeFiles/knightfens.dir/knightfens.cpp.s
 .PHONY : knightfens.cpp.s
 
+longincsubseq.obj: longincsubseq.c.obj
+
+.PHONY : longincsubseq.obj
+
+# target to build an object file
+longincsubseq.c.obj:
+	$(MAKE) -f CMakeFiles\longincsubseq.dir\build.make CMakeFiles/longincsubseq.dir/longincsubseq.c.obj
+.PHONY : longincsubseq.c.obj
+
+longincsubseq.i: longincsubseq.c.i
+
+.PHONY : longincsubseq.i
+
+# target to preprocess a source file
+longincsubseq.c.i:
+	$(MAKE) -f CMakeFiles\longincsubseq.dir\build.make CMakeFiles/longincsubseq.dir/longincsubseq.c.i
+.PHONY : longincsubseq.c.i
+
+longincsubseq.s: longincsubseq.c.s
+
+.PHONY : longincsubseq.s
+
+# target to generate assembly for a file
+longincsubseq.c.s:
+	$(MAKE) -f CMakeFiles\longincsubseq.dir\build.make CMakeFiles/longincsubseq.dir/longincsubseq.c.s
+.PHONY : longincsubseq.c.s
+
+longincsubseqplus.obj: longincsubseqplus.cpp.obj
+
+.PHONY : longincsubseqplus.obj
+
+# target to build an object file
+longincsubseqplus.cpp.obj:
+	$(MAKE) -f CMakeFiles\longincsubseqplus.dir\build.make CMakeFiles/longincsubseqplus.dir/longincsubseqplus.cpp.obj
+.PHONY : longincsubseqplus.cpp.obj
+
+longincsubseqplus.i: longincsubseqplus.cpp.i
+
+.PHONY : longincsubseqplus.i
+
+# target to preprocess a source file
+longincsubseqplus.cpp.i:
+	$(MAKE) -f CMakeFiles\longincsubseqplus.dir\build.make CMakeFiles/longincsubseqplus.dir/longincsubseqplus.cpp.i
+.PHONY : longincsubseqplus.cpp.i
+
+longincsubseqplus.s: longincsubseqplus.cpp.s
+
+.PHONY : longincsubseqplus.s
+
+# target to generate assembly for a file
+longincsubseqplus.cpp.s:
+	$(MAKE) -f CMakeFiles\longincsubseqplus.dir\build.make CMakeFiles/longincsubseqplus.dir/longincsubseqplus.cpp.s
+.PHONY : longincsubseqplus.cpp.s
+
+main.obj: main.cpp.obj
+
+.PHONY : main.obj
+
+# target to build an object file
+main.cpp.obj:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.obj
+.PHONY : main.cpp.obj
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.s
+.PHONY : main.cpp.s
+
+oddities.obj: oddities.cpp.obj
+
+.PHONY : oddities.obj
+
+# target to build an object file
+oddities.cpp.obj:
+	$(MAKE) -f CMakeFiles\oddities.dir\build.make CMakeFiles/oddities.dir/oddities.cpp.obj
+.PHONY : oddities.cpp.obj
+
+oddities.i: oddities.cpp.i
+
+.PHONY : oddities.i
+
+# target to preprocess a source file
+oddities.cpp.i:
+	$(MAKE) -f CMakeFiles\oddities.dir\build.make CMakeFiles/oddities.dir/oddities.cpp.i
+.PHONY : oddities.cpp.i
+
+oddities.s: oddities.cpp.s
+
+.PHONY : oddities.s
+
+# target to generate assembly for a file
+oddities.cpp.s:
+	$(MAKE) -f CMakeFiles\oddities.dir\build.make CMakeFiles/oddities.dir/oddities.cpp.s
+.PHONY : oddities.cpp.s
+
+orders.obj: orders.cpp.obj
+
+.PHONY : orders.obj
+
+# target to build an object file
+orders.cpp.obj:
+	$(MAKE) -f CMakeFiles\orders.dir\build.make CMakeFiles/orders.dir/orders.cpp.obj
+.PHONY : orders.cpp.obj
+
+orders.i: orders.cpp.i
+
+.PHONY : orders.i
+
+# target to preprocess a source file
+orders.cpp.i:
+	$(MAKE) -f CMakeFiles\orders.dir\build.make CMakeFiles/orders.dir/orders.cpp.i
+.PHONY : orders.cpp.i
+
+orders.s: orders.cpp.s
+
+.PHONY : orders.s
+
+# target to generate assembly for a file
+orders.cpp.s:
+	$(MAKE) -f CMakeFiles\orders.dir\build.make CMakeFiles/orders.dir/orders.cpp.s
+.PHONY : orders.cpp.s
+
+qaly.obj: qaly.cpp.obj
+
+.PHONY : qaly.obj
+
+# target to build an object file
+qaly.cpp.obj:
+	$(MAKE) -f CMakeFiles\qaly.dir\build.make CMakeFiles/qaly.dir/qaly.cpp.obj
+.PHONY : qaly.cpp.obj
+
+qaly.i: qaly.cpp.i
+
+.PHONY : qaly.i
+
+# target to preprocess a source file
+qaly.cpp.i:
+	$(MAKE) -f CMakeFiles\qaly.dir\build.make CMakeFiles/qaly.dir/qaly.cpp.i
+.PHONY : qaly.cpp.i
+
+qaly.s: qaly.cpp.s
+
+.PHONY : qaly.s
+
+# target to generate assembly for a file
+qaly.cpp.s:
+	$(MAKE) -f CMakeFiles\qaly.dir\build.make CMakeFiles/qaly.dir/qaly.cpp.s
+.PHONY : qaly.cpp.s
+
+r2.obj: r2.cpp.obj
+
+.PHONY : r2.obj
+
+# target to build an object file
+r2.cpp.obj:
+	$(MAKE) -f CMakeFiles\r2.dir\build.make CMakeFiles/r2.dir/r2.cpp.obj
+.PHONY : r2.cpp.obj
+
+r2.i: r2.cpp.i
+
+.PHONY : r2.i
+
+# target to preprocess a source file
+r2.cpp.i:
+	$(MAKE) -f CMakeFiles\r2.dir\build.make CMakeFiles/r2.dir/r2.cpp.i
+.PHONY : r2.cpp.i
+
+r2.s: r2.cpp.s
+
+.PHONY : r2.s
+
+# target to generate assembly for a file
+r2.cpp.s:
+	$(MAKE) -f CMakeFiles\r2.dir\build.make CMakeFiles/r2.dir/r2.cpp.s
+.PHONY : r2.cpp.s
+
+tarifa.obj: tarifa.cpp.obj
+
+.PHONY : tarifa.obj
+
+# target to build an object file
+tarifa.cpp.obj:
+	$(MAKE) -f CMakeFiles\tarifa.dir\build.make CMakeFiles/tarifa.dir/tarifa.cpp.obj
+.PHONY : tarifa.cpp.obj
+
+tarifa.i: tarifa.cpp.i
+
+.PHONY : tarifa.i
+
+# target to preprocess a source file
+tarifa.cpp.i:
+	$(MAKE) -f CMakeFiles\tarifa.dir\build.make CMakeFiles/tarifa.dir/tarifa.cpp.i
+.PHONY : tarifa.cpp.i
+
+tarifa.s: tarifa.cpp.s
+
+.PHONY : tarifa.s
+
+# target to generate assembly for a file
+tarifa.cpp.s:
+	$(MAKE) -f CMakeFiles\tarifa.dir\build.make CMakeFiles/tarifa.dir/tarifa.cpp.s
+.PHONY : tarifa.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -276,23 +916,87 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... knightfens
+	@echo ... beanbag
+	@echo ... knapsack
 	@echo ... Autori
+	@echo ... HeartRate
 	@echo ... geppetto
-	@echo ... edit_cache
+	@echo ... longincsubseqplus
+	@echo ... longincsubseq
+	@echo ... qaly
 	@echo ... font
+	@echo ... orders
+	@echo ... edit_cache
+	@echo ... main
+	@echo ... tarifa
+	@echo ... convexhullOpower2
+	@echo ... carrots
+	@echo ... r2
+	@echo ... oddities
+	@echo ... convexhullGraham
+	@echo ... exactchange2
+	@echo ... batterup
 	@echo ... rebuild_cache
 	@echo ... Autori.obj
 	@echo ... Autori.i
 	@echo ... Autori.s
+	@echo ... HeartRate.obj
+	@echo ... HeartRate.i
+	@echo ... HeartRate.s
+	@echo ... batterup.obj
+	@echo ... batterup.i
+	@echo ... batterup.s
+	@echo ... beanbag.obj
+	@echo ... beanbag.i
+	@echo ... beanbag.s
+	@echo ... carrots.obj
+	@echo ... carrots.i
+	@echo ... carrots.s
+	@echo ... convexhullGraham.obj
+	@echo ... convexhullGraham.i
+	@echo ... convexhullGraham.s
+	@echo ... convexhullOpower2.obj
+	@echo ... convexhullOpower2.i
+	@echo ... convexhullOpower2.s
+	@echo ... exactchange2.obj
+	@echo ... exactchange2.i
+	@echo ... exactchange2.s
 	@echo ... font.obj
 	@echo ... font.i
 	@echo ... font.s
 	@echo ... geppetto.obj
 	@echo ... geppetto.i
 	@echo ... geppetto.s
+	@echo ... knapsack.obj
+	@echo ... knapsack.i
+	@echo ... knapsack.s
 	@echo ... knightfens.obj
 	@echo ... knightfens.i
 	@echo ... knightfens.s
+	@echo ... longincsubseq.obj
+	@echo ... longincsubseq.i
+	@echo ... longincsubseq.s
+	@echo ... longincsubseqplus.obj
+	@echo ... longincsubseqplus.i
+	@echo ... longincsubseqplus.s
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
+	@echo ... oddities.obj
+	@echo ... oddities.i
+	@echo ... oddities.s
+	@echo ... orders.obj
+	@echo ... orders.i
+	@echo ... orders.s
+	@echo ... qaly.obj
+	@echo ... qaly.i
+	@echo ... qaly.s
+	@echo ... r2.obj
+	@echo ... r2.i
+	@echo ... r2.s
+	@echo ... tarifa.obj
+	@echo ... tarifa.i
+	@echo ... tarifa.s
 .PHONY : help
 
 

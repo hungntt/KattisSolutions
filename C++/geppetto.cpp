@@ -15,12 +15,12 @@ int calc(int x) {
     if (x == n) return 1;
     int ret = calc(x + 1);
 
-    bool ok = 1;
+    bool ok = true;
     for (auto v: E[x])
-        if (uzeo[v]) ok = 0;
+        if (uzeo[v]) ok = false;
 
     if (ok) {
-        uzeo[x] = 1;
+        uzeo[x] = true;
         ret += calc(x + 1);
         uzeo[x] = false;
     }
@@ -29,16 +29,14 @@ int calc(int x) {
 }
 
 int main() {
-    cin >> n, m;
     for (int i = 0; i < m; ++i) {
-        int x, y;
-        scanf("%d%d", &x, &y);
+        int x = 0, y = 0;
+        cin >> x >> y;
         --x;
         --y;
         E[x].push_back(y);
         E[y].push_back(x);
     }
-
-    printf("%d\n", calc(0));
+    cout << calc(0);
     return 0;
 }

@@ -54,7 +54,23 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/knightfens.dir/DependInfo.cmake"
+  "CMakeFiles/beanbag.dir/DependInfo.cmake"
+  "CMakeFiles/knapsack.dir/DependInfo.cmake"
   "CMakeFiles/Autori.dir/DependInfo.cmake"
+  "CMakeFiles/HeartRate.dir/DependInfo.cmake"
   "CMakeFiles/geppetto.dir/DependInfo.cmake"
+  "CMakeFiles/longincsubseqplus.dir/DependInfo.cmake"
+  "CMakeFiles/longincsubseq.dir/DependInfo.cmake"
+  "CMakeFiles/qaly.dir/DependInfo.cmake"
   "CMakeFiles/font.dir/DependInfo.cmake"
+  "CMakeFiles/orders.dir/DependInfo.cmake"
+  "CMakeFiles/main.dir/DependInfo.cmake"
+  "CMakeFiles/tarifa.dir/DependInfo.cmake"
+  "CMakeFiles/convexhullOpower2.dir/DependInfo.cmake"
+  "CMakeFiles/carrots.dir/DependInfo.cmake"
+  "CMakeFiles/r2.dir/DependInfo.cmake"
+  "CMakeFiles/oddities.dir/DependInfo.cmake"
+  "CMakeFiles/convexhullGraham.dir/DependInfo.cmake"
+  "CMakeFiles/exactchange2.dir/DependInfo.cmake"
+  "CMakeFiles/batterup.dir/DependInfo.cmake"
   )

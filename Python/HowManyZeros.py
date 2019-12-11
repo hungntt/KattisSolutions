@@ -41,18 +41,16 @@ def countZeros(n):
 
 
 while True:
-    try:
-        s = input().split()
-        m = int(s[0])
-        n = int(s[1])
-        if m == -1 and n == -1:
-            break
-        else:
-            zeros = countZeros(m)
-            lower = countZerosUpTo(m)
-            upper = countZerosUpTo(n)
-            print(lower)
-            print(upper)
-            print(zeros + upper - lower)
-    except IndexError:
+    s = input().split()
+    m = int(s[0])
+    n = int(s[1])
+    if m == -1 and n == -1:
         break
+    else:
+        zeros = countZeros(m)
+        lower = countZerosUpTo(m)
+        upper = countZerosUpTo(n)
+        print(lower)
+        print(upper)
+        print(zeros + upper - lower)
+

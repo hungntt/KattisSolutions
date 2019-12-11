@@ -1,41 +1,33 @@
-def valid(board, row, col, occ):
-    n = len(board)
-    if not board[row][col]:
-        return False
-    # if (row,col) in cache:
-    #	return cache[(row,col)]>=row
-    for x, y in enumerate(occ):
-        if x + y == row + col or x - y == row - col:
-            # cache[(row,col)]=(x,y)
-            return False
-    # cache[(row,col)]=(row,-1)
-    return True
+# --------------------------
+# VGU Selected Problems from the ACM Programming Contest WS 2019/2020
+# *Problem: carrots Solving for Carrots
+# *Link: https://open.kattis.com/problems/factovisors;
+# @author Nguyen Truong Thanh Hung - CS2016 - No. 11376
+# @version 1.0, 27/11/2019
+# *Method: compare prime factors of n! and m
+# *Status: Accepted
+# *Runtime: 0.00s
+# *Programming language: C++
+# --------------------------
 
+def main():
+    n = int(input())
+    nums = list()
+    possible = false
 
-def numsols(board, row, unused, occ=[]):
-    if row == len(board):
-        return 1
-    nsol = 0
-    for i in range((len(board))):
-        if unused[i] and valid(board, row, i, occ):
-            occ.append(i)
-            unused[i] = 0
-            nsol += numsols(board, row + 1, unused, occ)
-            occ.pop()
-            try:
-                unused[i] = 1
-            except:
-                print(i, len(board), len(unused))
-                exit()
-    return nsol
+    line = input().split()
+    for i in range(n):
+        nums[i] = line[i]
 
+    sort(nums)
 
-n, m = map(int, input().split())
+    for i in range(n - 2):
+        if nums[i] + nums[i + 1] > nums[i + 2]
+            possible = true
+            break
 
-while m or n:
-    board = [[1] * n for _ in range(n)]
-    for _ in range(m):
-        x, y = map(int, input().split())
-        board[x][y] = 0
-    print(numsols(board, 0, [1] * n))
-    n, m = map(int, input().split())
+    if possible:
+        print("Possible")
+    else:
+        print("Impossible")
+

@@ -2,10 +2,26 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
+      <config projectName="C__" targetName="main" />
+      <config projectName="C__" targetName="convexhullOpower2" />
+      <config projectName="C__" targetName="tarifa" />
+      <config projectName="C__" targetName="r2" />
       <config projectName="C__" targetName="font" />
-      <config projectName="C__" targetName="Autori" />
       <config projectName="C__" targetName="knightfens" />
+      <config projectName="C__" targetName="Autori" />
+      <config projectName="C__" targetName="batterup" />
+      <config projectName="C__" targetName="HeartRate" />
+      <config projectName="C__" targetName="orders" />
+      <config projectName="C__" targetName="beanbag" />
+      <config projectName="C__" targetName="exactchange2" />
+      <config projectName="C__" targetName="carrots" />
+      <config projectName="C__" targetName="qaly" />
       <config projectName="C__" targetName="geppetto" />
+      <config projectName="C__" targetName="longincsubseqplus" />
+      <config projectName="C__" targetName="convexhullGraham" />
+      <config projectName="C__" targetName="longincsubseq" />
+      <config projectName="C__" targetName="knapsack" />
+      <config projectName="C__" targetName="oddities" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -15,23 +31,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e11c15e4-2a94-4f0f-a2e4-ce6e8ae836af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/nextPermutation.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/Holeynqueensbatman.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/Satisfiability.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HeartRate.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/batterup.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carrots.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convexhullGraham.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convexhullOpower2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exactchange2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knapsack.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longincsubseq.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longincsubseqplus.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oddities.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orders.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qaly.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tarifa.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/BeanBag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/Holeynqueenbatmat2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/Orders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/batterup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/convexpolygonarea.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/datum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/dicecup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/digitsum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/filip.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/lastfactorialdigit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/longincsubseq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/oddities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/pot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/qaly.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/knightfens.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/knightfens.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/font.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/font.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/font.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/font.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/font.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/font.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/geppetto.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/geppetto.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/geppetto.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/geppetto.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/geppetto.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/geppetto.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/knightfens.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/knightfens.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/C__.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/C__.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/knightfens.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/knightfens.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/font.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/font.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/geppetto.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/geppetto.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/knightfens.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/knightfens.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/EqualSumEasy.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/EqualSumEasy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/Test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +106,48 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
-  <component name="RunManager" selected="CMake Application.font">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CS\Kattis\KattisSoluions\C++" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.batterup">
     <configuration name="Autori" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C__" TARGET_NAME="Autori" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C__" RUN_TARGET_NAME="Autori">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeartRate" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C__" TARGET_NAME="HeartRate" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C__" RUN_TARGET_NAME="HeartRate">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="batterup" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C__" TARGET_NAME="batterup" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C__" RUN_TARGET_NAME="batterup">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="beanbag" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C__" TARGET_NAME="beanbag" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C__" RUN_TARGET_NAME="beanbag">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="carrots" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C__" TARGET_NAME="carrots" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C__" RUN_TARGET_NAME="carrots">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="convexhullGraham" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C__" TARGET_NAME="convexhullGraham" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C__" RUN_TARGET_NAME="convexhullGraham">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="convexhullOpower2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C__" TARGET_NAME="convexhullOpower2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C__" RUN_TARGET_NAME="convexhullOpower2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exactchange2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C__" TARGET_NAME="exactchange2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C__" RUN_TARGET_NAME="exactchange2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -74,16 +162,77 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="knapsack" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C__" TARGET_NAME="knapsack" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C__" RUN_TARGET_NAME="knapsack">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="knightfens" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C__" TARGET_NAME="knightfens" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C__" RUN_TARGET_NAME="knightfens">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="longincsubseq" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C__" TARGET_NAME="longincsubseq" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C__" RUN_TARGET_NAME="longincsubseq">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="longincsubseqplus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C__" TARGET_NAME="longincsubseqplus" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C__" RUN_TARGET_NAME="longincsubseqplus">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C__" TARGET_NAME="main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C__" RUN_TARGET_NAME="main">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="oddities" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C__" TARGET_NAME="oddities" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C__" RUN_TARGET_NAME="oddities">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="orders" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C__" TARGET_NAME="orders" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C__" RUN_TARGET_NAME="orders">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="qaly" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C__" TARGET_NAME="qaly" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C__" RUN_TARGET_NAME="qaly">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="r2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C__" TARGET_NAME="r2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C__" RUN_TARGET_NAME="r2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tarifa" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C__" TARGET_NAME="tarifa" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C__" RUN_TARGET_NAME="tarifa">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="CMake Application.Autori" />
+      <item itemvalue="CMake Application.batterup" />
+      <item itemvalue="CMake Application.beanbag" />
+      <item itemvalue="CMake Application.carrots" />
+      <item itemvalue="CMake Application.convexhullGraham" />
+      <item itemvalue="CMake Application.convexhullOpower2" />
+      <item itemvalue="CMake Application.exactchange2" />
       <item itemvalue="CMake Application.font" />
       <item itemvalue="CMake Application.geppetto" />
+      <item itemvalue="CMake Application.HeartRate" />
+      <item itemvalue="CMake Application.knapsack" />
       <item itemvalue="CMake Application.knightfens" />
+      <item itemvalue="CMake Application.longincsubseq" />
+      <item itemvalue="CMake Application.longincsubseqplus" />
+      <item itemvalue="CMake Application.main" />
+      <item itemvalue="CMake Application.oddities" />
+      <item itemvalue="CMake Application.orders" />
+      <item itemvalue="CMake Application.qaly" />
+      <item itemvalue="CMake Application.r2" />
+      <item itemvalue="CMake Application.tarifa" />
     </list>
   </component>
   <component name="ServiceViewManager">
@@ -114,6 +263,12 @@
       <workItem from="1575252607329" duration="8081000" />
       <workItem from="1575339970870" duration="12078000" />
       <workItem from="1575427544179" duration="6419000" />
+      <workItem from="1575513582097" duration="10779000" />
+      <workItem from="1575619922040" duration="3401000" />
+      <workItem from="1575694432886" duration="11351000" />
+      <workItem from="1575737947101" duration="2253000" />
+      <workItem from="1575857216056" duration="20805000" />
+      <workItem from="1575943690555" duration="6895000" />
     </task>
     <servers />
   </component>
@@ -125,41 +280,72 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="70" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1575432592179" />
-    <state width="1493" height="244" key="GridCell.Tab.0.bottom" timestamp="1575442604198">
+    <state x="515" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575516113823">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="244" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575442604198" />
-    <state width="1493" height="244" key="GridCell.Tab.0.center" timestamp="1575442604198">
+    <state x="515" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1575516113823" />
+    <state width="1493" height="274" key="GridCell.Tab.0.bottom" timestamp="1575905850710">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="244" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1575442604198" />
-    <state width="1493" height="244" key="GridCell.Tab.0.left" timestamp="1575442604198">
+    <state width="1493" height="274" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575905850710" />
+    <state width="1493" height="274" key="GridCell.Tab.0.center" timestamp="1575905850710">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="244" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1575442604198" />
-    <state width="1493" height="244" key="GridCell.Tab.0.right" timestamp="1575442604198">
+    <state width="1493" height="274" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1575905850710" />
+    <state width="1493" height="274" key="GridCell.Tab.0.left" timestamp="1575905850706">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="244" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1575442604198" />
+    <state width="1493" height="274" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1575905850706" />
+    <state width="1493" height="274" key="GridCell.Tab.0.right" timestamp="1575905850710">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="274" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1575905850710" />
+    <state width="723" height="72" key="GridCell.Tab.1.bottom" timestamp="1575732826626">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="723" height="72" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575732826626" />
+    <state width="723" height="72" key="GridCell.Tab.1.center" timestamp="1575732826626">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="723" height="72" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1575732826626" />
+    <state width="723" height="72" key="GridCell.Tab.1.left" timestamp="1575732826626">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="723" height="72" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1575732826626" />
+    <state width="723" height="72" key="GridCell.Tab.1.right" timestamp="1575732826626">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="723" height="72" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1575732826626" />
     <state x="277" y="54" key="SettingsEditor" timestamp="1575194203758">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1575194203758" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1575427575568">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1575943861209">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1575427575568" />
-    <state x="493" y="54" key="refactoring.ChangeSignatureDialog" timestamp="1575196446497">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1575943861209" />
+    <state x="493" y="54" key="refactoring.ChangeSignatureDialog" timestamp="1575719512417">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="493" y="54" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1575196446497" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1575300212619">
+    <state x="493" y="54" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1575719512417" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1575863416923">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1575300212619" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1575196248544">
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1575863416923" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1576038531540">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1575196248544" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1576038531540" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/longincsubseq.c</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/CS/Kattis/KattisSoluions/C++/cmake-build-debug/font.cpp" "D:/CS/Kattis/KattisSoluions/C++/cmake-build-debug/CMakeFiles/font.dir/font.cpp.obj"
+  "D:/CS/Kattis/KattisSoluions/C++/font.cpp" "D:/CS/Kattis/KattisSoluions/C++/cmake-build-debug/CMakeFiles/font.dir/font.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

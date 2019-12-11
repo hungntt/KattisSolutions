@@ -53,17 +53,49 @@ CMAKE_BINARY_DIR = D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug
 
 # The main recursive "all" target.
 all: CMakeFiles/knightfens.dir/all
+all: CMakeFiles/beanbag.dir/all
+all: CMakeFiles/knapsack.dir/all
 all: CMakeFiles/Autori.dir/all
+all: CMakeFiles/HeartRate.dir/all
 all: CMakeFiles/geppetto.dir/all
+all: CMakeFiles/longincsubseqplus.dir/all
+all: CMakeFiles/longincsubseq.dir/all
+all: CMakeFiles/qaly.dir/all
 all: CMakeFiles/font.dir/all
+all: CMakeFiles/orders.dir/all
+all: CMakeFiles/main.dir/all
+all: CMakeFiles/tarifa.dir/all
+all: CMakeFiles/convexhullOpower2.dir/all
+all: CMakeFiles/carrots.dir/all
+all: CMakeFiles/r2.dir/all
+all: CMakeFiles/oddities.dir/all
+all: CMakeFiles/convexhullGraham.dir/all
+all: CMakeFiles/exactchange2.dir/all
+all: CMakeFiles/batterup.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
 clean: CMakeFiles/knightfens.dir/clean
+clean: CMakeFiles/beanbag.dir/clean
+clean: CMakeFiles/knapsack.dir/clean
 clean: CMakeFiles/Autori.dir/clean
+clean: CMakeFiles/HeartRate.dir/clean
 clean: CMakeFiles/geppetto.dir/clean
+clean: CMakeFiles/longincsubseqplus.dir/clean
+clean: CMakeFiles/longincsubseq.dir/clean
+clean: CMakeFiles/qaly.dir/clean
 clean: CMakeFiles/font.dir/clean
+clean: CMakeFiles/orders.dir/clean
+clean: CMakeFiles/main.dir/clean
+clean: CMakeFiles/tarifa.dir/clean
+clean: CMakeFiles/convexhullOpower2.dir/clean
+clean: CMakeFiles/carrots.dir/clean
+clean: CMakeFiles/r2.dir/clean
+clean: CMakeFiles/oddities.dir/clean
+clean: CMakeFiles/convexhullGraham.dir/clean
+clean: CMakeFiles/exactchange2.dir/clean
+clean: CMakeFiles/batterup.dir/clean
 
 .PHONY : clean
 
@@ -79,7 +111,7 @@ preinstall:
 CMakeFiles/knightfens.dir/all:
 	$(MAKE) -f CMakeFiles\knightfens.dir\build.make CMakeFiles/knightfens.dir/depend
 	$(MAKE) -f CMakeFiles\knightfens.dir\build.make CMakeFiles/knightfens.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target knightfens"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target knightfens"
 .PHONY : CMakeFiles/knightfens.dir/all
 
 # Build rule for subdir invocation for target.
@@ -98,6 +130,60 @@ knightfens: CMakeFiles/knightfens.dir/rule
 CMakeFiles/knightfens.dir/clean:
 	$(MAKE) -f CMakeFiles\knightfens.dir\build.make CMakeFiles/knightfens.dir/clean
 .PHONY : CMakeFiles/knightfens.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/beanbag.dir
+
+# All Build rule for target.
+CMakeFiles/beanbag.dir/all:
+	$(MAKE) -f CMakeFiles\beanbag.dir\build.make CMakeFiles/beanbag.dir/depend
+	$(MAKE) -f CMakeFiles\beanbag.dir\build.make CMakeFiles/beanbag.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target beanbag"
+.PHONY : CMakeFiles/beanbag.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/beanbag.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/beanbag.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/beanbag.dir/rule
+
+# Convenience name for target.
+beanbag: CMakeFiles/beanbag.dir/rule
+
+.PHONY : beanbag
+
+# clean rule for target.
+CMakeFiles/beanbag.dir/clean:
+	$(MAKE) -f CMakeFiles\beanbag.dir\build.make CMakeFiles/beanbag.dir/clean
+.PHONY : CMakeFiles/beanbag.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/knapsack.dir
+
+# All Build rule for target.
+CMakeFiles/knapsack.dir/all:
+	$(MAKE) -f CMakeFiles\knapsack.dir\build.make CMakeFiles/knapsack.dir/depend
+	$(MAKE) -f CMakeFiles\knapsack.dir\build.make CMakeFiles/knapsack.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target knapsack"
+.PHONY : CMakeFiles/knapsack.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/knapsack.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/knapsack.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/knapsack.dir/rule
+
+# Convenience name for target.
+knapsack: CMakeFiles/knapsack.dir/rule
+
+.PHONY : knapsack
+
+# clean rule for target.
+CMakeFiles/knapsack.dir/clean:
+	$(MAKE) -f CMakeFiles\knapsack.dir\build.make CMakeFiles/knapsack.dir/clean
+.PHONY : CMakeFiles/knapsack.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Autori.dir
@@ -127,13 +213,40 @@ CMakeFiles/Autori.dir/clean:
 .PHONY : CMakeFiles/Autori.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/HeartRate.dir
+
+# All Build rule for target.
+CMakeFiles/HeartRate.dir/all:
+	$(MAKE) -f CMakeFiles\HeartRate.dir\build.make CMakeFiles/HeartRate.dir/depend
+	$(MAKE) -f CMakeFiles\HeartRate.dir\build.make CMakeFiles/HeartRate.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target HeartRate"
+.PHONY : CMakeFiles/HeartRate.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/HeartRate.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/HeartRate.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/HeartRate.dir/rule
+
+# Convenience name for target.
+HeartRate: CMakeFiles/HeartRate.dir/rule
+
+.PHONY : HeartRate
+
+# clean rule for target.
+CMakeFiles/HeartRate.dir/clean:
+	$(MAKE) -f CMakeFiles\HeartRate.dir\build.make CMakeFiles/HeartRate.dir/clean
+.PHONY : CMakeFiles/HeartRate.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/geppetto.dir
 
 # All Build rule for target.
 CMakeFiles/geppetto.dir/all:
 	$(MAKE) -f CMakeFiles\geppetto.dir\build.make CMakeFiles/geppetto.dir/depend
 	$(MAKE) -f CMakeFiles\geppetto.dir\build.make CMakeFiles/geppetto.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target geppetto"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target geppetto"
 .PHONY : CMakeFiles/geppetto.dir/all
 
 # Build rule for subdir invocation for target.
@@ -154,13 +267,94 @@ CMakeFiles/geppetto.dir/clean:
 .PHONY : CMakeFiles/geppetto.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/longincsubseqplus.dir
+
+# All Build rule for target.
+CMakeFiles/longincsubseqplus.dir/all:
+	$(MAKE) -f CMakeFiles\longincsubseqplus.dir\build.make CMakeFiles/longincsubseqplus.dir/depend
+	$(MAKE) -f CMakeFiles\longincsubseqplus.dir\build.make CMakeFiles/longincsubseqplus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target longincsubseqplus"
+.PHONY : CMakeFiles/longincsubseqplus.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/longincsubseqplus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/longincsubseqplus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/longincsubseqplus.dir/rule
+
+# Convenience name for target.
+longincsubseqplus: CMakeFiles/longincsubseqplus.dir/rule
+
+.PHONY : longincsubseqplus
+
+# clean rule for target.
+CMakeFiles/longincsubseqplus.dir/clean:
+	$(MAKE) -f CMakeFiles\longincsubseqplus.dir\build.make CMakeFiles/longincsubseqplus.dir/clean
+.PHONY : CMakeFiles/longincsubseqplus.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/longincsubseq.dir
+
+# All Build rule for target.
+CMakeFiles/longincsubseq.dir/all:
+	$(MAKE) -f CMakeFiles\longincsubseq.dir\build.make CMakeFiles/longincsubseq.dir/depend
+	$(MAKE) -f CMakeFiles\longincsubseq.dir\build.make CMakeFiles/longincsubseq.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target longincsubseq"
+.PHONY : CMakeFiles/longincsubseq.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/longincsubseq.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/longincsubseq.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/longincsubseq.dir/rule
+
+# Convenience name for target.
+longincsubseq: CMakeFiles/longincsubseq.dir/rule
+
+.PHONY : longincsubseq
+
+# clean rule for target.
+CMakeFiles/longincsubseq.dir/clean:
+	$(MAKE) -f CMakeFiles\longincsubseq.dir\build.make CMakeFiles/longincsubseq.dir/clean
+.PHONY : CMakeFiles/longincsubseq.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/qaly.dir
+
+# All Build rule for target.
+CMakeFiles/qaly.dir/all:
+	$(MAKE) -f CMakeFiles\qaly.dir\build.make CMakeFiles/qaly.dir/depend
+	$(MAKE) -f CMakeFiles\qaly.dir\build.make CMakeFiles/qaly.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target qaly"
+.PHONY : CMakeFiles/qaly.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/qaly.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/qaly.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/qaly.dir/rule
+
+# Convenience name for target.
+qaly: CMakeFiles/qaly.dir/rule
+
+.PHONY : qaly
+
+# clean rule for target.
+CMakeFiles/qaly.dir/clean:
+	$(MAKE) -f CMakeFiles\qaly.dir\build.make CMakeFiles/qaly.dir/clean
+.PHONY : CMakeFiles/qaly.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/font.dir
 
 # All Build rule for target.
 CMakeFiles/font.dir/all:
 	$(MAKE) -f CMakeFiles\font.dir\build.make CMakeFiles/font.dir/depend
 	$(MAKE) -f CMakeFiles\font.dir\build.make CMakeFiles/font.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target font"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target font"
 .PHONY : CMakeFiles/font.dir/all
 
 # Build rule for subdir invocation for target.
@@ -179,6 +373,276 @@ font: CMakeFiles/font.dir/rule
 CMakeFiles/font.dir/clean:
 	$(MAKE) -f CMakeFiles\font.dir\build.make CMakeFiles/font.dir/clean
 .PHONY : CMakeFiles/font.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/orders.dir
+
+# All Build rule for target.
+CMakeFiles/orders.dir/all:
+	$(MAKE) -f CMakeFiles\orders.dir\build.make CMakeFiles/orders.dir/depend
+	$(MAKE) -f CMakeFiles\orders.dir\build.make CMakeFiles/orders.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target orders"
+.PHONY : CMakeFiles/orders.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/orders.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/orders.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/orders.dir/rule
+
+# Convenience name for target.
+orders: CMakeFiles/orders.dir/rule
+
+.PHONY : orders
+
+# clean rule for target.
+CMakeFiles/orders.dir/clean:
+	$(MAKE) -f CMakeFiles\orders.dir\build.make CMakeFiles/orders.dir/clean
+.PHONY : CMakeFiles/orders.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/main.dir
+
+# All Build rule for target.
+CMakeFiles/main.dir/all:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/depend
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target main"
+.PHONY : CMakeFiles/main.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/main.dir/rule
+
+# Convenience name for target.
+main: CMakeFiles/main.dir/rule
+
+.PHONY : main
+
+# clean rule for target.
+CMakeFiles/main.dir/clean:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/clean
+.PHONY : CMakeFiles/main.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/tarifa.dir
+
+# All Build rule for target.
+CMakeFiles/tarifa.dir/all:
+	$(MAKE) -f CMakeFiles\tarifa.dir\build.make CMakeFiles/tarifa.dir/depend
+	$(MAKE) -f CMakeFiles\tarifa.dir\build.make CMakeFiles/tarifa.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target tarifa"
+.PHONY : CMakeFiles/tarifa.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tarifa.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/tarifa.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/tarifa.dir/rule
+
+# Convenience name for target.
+tarifa: CMakeFiles/tarifa.dir/rule
+
+.PHONY : tarifa
+
+# clean rule for target.
+CMakeFiles/tarifa.dir/clean:
+	$(MAKE) -f CMakeFiles\tarifa.dir\build.make CMakeFiles/tarifa.dir/clean
+.PHONY : CMakeFiles/tarifa.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/convexhullOpower2.dir
+
+# All Build rule for target.
+CMakeFiles/convexhullOpower2.dir/all:
+	$(MAKE) -f CMakeFiles\convexhullOpower2.dir\build.make CMakeFiles/convexhullOpower2.dir/depend
+	$(MAKE) -f CMakeFiles\convexhullOpower2.dir\build.make CMakeFiles/convexhullOpower2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target convexhullOpower2"
+.PHONY : CMakeFiles/convexhullOpower2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/convexhullOpower2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/convexhullOpower2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/convexhullOpower2.dir/rule
+
+# Convenience name for target.
+convexhullOpower2: CMakeFiles/convexhullOpower2.dir/rule
+
+.PHONY : convexhullOpower2
+
+# clean rule for target.
+CMakeFiles/convexhullOpower2.dir/clean:
+	$(MAKE) -f CMakeFiles\convexhullOpower2.dir\build.make CMakeFiles/convexhullOpower2.dir/clean
+.PHONY : CMakeFiles/convexhullOpower2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/carrots.dir
+
+# All Build rule for target.
+CMakeFiles/carrots.dir/all:
+	$(MAKE) -f CMakeFiles\carrots.dir\build.make CMakeFiles/carrots.dir/depend
+	$(MAKE) -f CMakeFiles\carrots.dir\build.make CMakeFiles/carrots.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target carrots"
+.PHONY : CMakeFiles/carrots.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/carrots.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/carrots.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/carrots.dir/rule
+
+# Convenience name for target.
+carrots: CMakeFiles/carrots.dir/rule
+
+.PHONY : carrots
+
+# clean rule for target.
+CMakeFiles/carrots.dir/clean:
+	$(MAKE) -f CMakeFiles\carrots.dir\build.make CMakeFiles/carrots.dir/clean
+.PHONY : CMakeFiles/carrots.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/r2.dir
+
+# All Build rule for target.
+CMakeFiles/r2.dir/all:
+	$(MAKE) -f CMakeFiles\r2.dir\build.make CMakeFiles/r2.dir/depend
+	$(MAKE) -f CMakeFiles\r2.dir\build.make CMakeFiles/r2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target r2"
+.PHONY : CMakeFiles/r2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/r2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/r2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/r2.dir/rule
+
+# Convenience name for target.
+r2: CMakeFiles/r2.dir/rule
+
+.PHONY : r2
+
+# clean rule for target.
+CMakeFiles/r2.dir/clean:
+	$(MAKE) -f CMakeFiles\r2.dir\build.make CMakeFiles/r2.dir/clean
+.PHONY : CMakeFiles/r2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/oddities.dir
+
+# All Build rule for target.
+CMakeFiles/oddities.dir/all:
+	$(MAKE) -f CMakeFiles\oddities.dir\build.make CMakeFiles/oddities.dir/depend
+	$(MAKE) -f CMakeFiles\oddities.dir\build.make CMakeFiles/oddities.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target oddities"
+.PHONY : CMakeFiles/oddities.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/oddities.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/oddities.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/oddities.dir/rule
+
+# Convenience name for target.
+oddities: CMakeFiles/oddities.dir/rule
+
+.PHONY : oddities
+
+# clean rule for target.
+CMakeFiles/oddities.dir/clean:
+	$(MAKE) -f CMakeFiles\oddities.dir\build.make CMakeFiles/oddities.dir/clean
+.PHONY : CMakeFiles/oddities.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/convexhullGraham.dir
+
+# All Build rule for target.
+CMakeFiles/convexhullGraham.dir/all:
+	$(MAKE) -f CMakeFiles\convexhullGraham.dir\build.make CMakeFiles/convexhullGraham.dir/depend
+	$(MAKE) -f CMakeFiles\convexhullGraham.dir\build.make CMakeFiles/convexhullGraham.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target convexhullGraham"
+.PHONY : CMakeFiles/convexhullGraham.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/convexhullGraham.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/convexhullGraham.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/convexhullGraham.dir/rule
+
+# Convenience name for target.
+convexhullGraham: CMakeFiles/convexhullGraham.dir/rule
+
+.PHONY : convexhullGraham
+
+# clean rule for target.
+CMakeFiles/convexhullGraham.dir/clean:
+	$(MAKE) -f CMakeFiles\convexhullGraham.dir\build.make CMakeFiles/convexhullGraham.dir/clean
+.PHONY : CMakeFiles/convexhullGraham.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/exactchange2.dir
+
+# All Build rule for target.
+CMakeFiles/exactchange2.dir/all:
+	$(MAKE) -f CMakeFiles\exactchange2.dir\build.make CMakeFiles/exactchange2.dir/depend
+	$(MAKE) -f CMakeFiles\exactchange2.dir\build.make CMakeFiles/exactchange2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target exactchange2"
+.PHONY : CMakeFiles/exactchange2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/exactchange2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/exactchange2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/exactchange2.dir/rule
+
+# Convenience name for target.
+exactchange2: CMakeFiles/exactchange2.dir/rule
+
+.PHONY : exactchange2
+
+# clean rule for target.
+CMakeFiles/exactchange2.dir/clean:
+	$(MAKE) -f CMakeFiles\exactchange2.dir\build.make CMakeFiles/exactchange2.dir/clean
+.PHONY : CMakeFiles/exactchange2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/batterup.dir
+
+# All Build rule for target.
+CMakeFiles/batterup.dir/all:
+	$(MAKE) -f CMakeFiles\batterup.dir\build.make CMakeFiles/batterup.dir/depend
+	$(MAKE) -f CMakeFiles\batterup.dir\build.make CMakeFiles/batterup.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target batterup"
+.PHONY : CMakeFiles/batterup.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/batterup.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/batterup.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CS\Kattis\KattisSoluions\C++\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/batterup.dir/rule
+
+# Convenience name for target.
+batterup: CMakeFiles/batterup.dir/rule
+
+.PHONY : batterup
+
+# clean rule for target.
+CMakeFiles/batterup.dir/clean:
+	$(MAKE) -f CMakeFiles\batterup.dir\build.make CMakeFiles/batterup.dir/clean
+.PHONY : CMakeFiles/batterup.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
