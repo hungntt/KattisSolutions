@@ -2,57 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b133e8ff-41e3-4bf1-a405-1a20bec26b4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../C++/HeartRate.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../C++/batterup.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../C++/carrots.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../C++/convexhullGraham.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../C++/convexhullOpower2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../C++/exactchange2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../C++/knapsack.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../C++/longincsubseq.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../C++/longincsubseqplus.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../C++/oddities.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../C++/orders.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../C++/qaly.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../C++/r2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../C++/tarifa.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BeanBag.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Holeynqueenbatmat2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Orders.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/batterup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/convexpolygonarea.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dicecup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digitsum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filip.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lastfactorialdigit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/longincsubseq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oddities.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qaly.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../C++/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../C++/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C++/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../C++/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C++/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../C++/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C++/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../C++/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C++/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../C++/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C++/cmake-build-debug/CMakeFiles/font.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../C++/cmake-build-debug/CMakeFiles/font.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C++/cmake-build-debug/CMakeFiles/font.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../C++/cmake-build-debug/CMakeFiles/font.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C++/cmake-build-debug/CMakeFiles/font.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../C++/cmake-build-debug/CMakeFiles/font.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C++/cmake-build-debug/CMakeFiles/geppetto.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../C++/cmake-build-debug/CMakeFiles/geppetto.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C++/cmake-build-debug/CMakeFiles/geppetto.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../C++/cmake-build-debug/CMakeFiles/geppetto.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C++/cmake-build-debug/CMakeFiles/geppetto.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../C++/cmake-build-debug/CMakeFiles/geppetto.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C++/cmake-build-debug/CMakeFiles/knightfens.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../C++/cmake-build-debug/CMakeFiles/knightfens.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C++/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../C++/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C++/cmake-build-debug/C__.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../C++/cmake-build-debug/C__.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C++/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../C++/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C++/cmake-build-debug/font.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../C++/font.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C++/cmake-build-debug/geppetto.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../C++/geppetto.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C++/knightfens.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../C++/knightfens.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C++/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../C++/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++/exactchange2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../C++/exactchange2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++/font.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../C++/font.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C++/knapsack.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../C++/knapsack.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factovisors.py" beforeDir="false" afterPath="$PROJECT_DIR$/Factovisors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HowManyZeros.py" beforeDir="false" afterPath="$PROJECT_DIR$/HowManyZeros.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACMContestScoring.py" beforeDir="false" afterPath="$PROJECT_DIR$/ACMContestScoring.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/digitsum.py" beforeDir="false" afterPath="$PROJECT_DIR$/digitsum.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,7 +205,7 @@
       <workItem from="1575653842611" duration="1446000" />
       <workItem from="1575740173054" duration="2233000" />
       <workItem from="1575857212354" duration="16482000" />
-      <workItem from="1575943685989" duration="16299000" />
+      <workItem from="1575943685989" duration="30469000" />
     </task>
     <servers />
   </component>
@@ -313,10 +270,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1575905904668" />
-    <state x="277" y="54" key="SettingsEditor" timestamp="1575879438256">
+    <state x="277" y="54" key="SettingsEditor" timestamp="1576060544248">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1575879438256" />
+    <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1576060544248" />
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1575943873025">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -325,20 +282,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1575961219937" />
-    <state x="430" y="145" width="672" height="160" key="search.everywhere.popup" timestamp="1576038536228">
+    <state x="430" y="145" width="672" height="160" key="search.everywhere.popup" timestamp="1576071826911">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="430" y="145" width="672" height="160" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1576038536228" />
+    <state x="430" y="145" width="672" height="160" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1576071826911" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/longincsubseq.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint suspend="NONE" type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">

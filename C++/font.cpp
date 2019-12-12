@@ -29,6 +29,7 @@ int main() {
         string word;
         cin >> word;
         s[i] = words(word);
+        cout << s[i] << endl;
     }
     dfs(0,0);
     cout << count << endl;

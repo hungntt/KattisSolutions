@@ -29,7 +29,6 @@ def main():
     for _ in range(cases):
         a, b = map(int, input().split())
         print(countUpTo(b + 1) - countUpTo(a))
-        print(memo)
 
 
 main()
